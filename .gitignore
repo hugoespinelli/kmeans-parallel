@@ -12,6 +12,10 @@
 *.map
 *.exp
 
+*.txt
+openmp/**.txt
+sequencial/**.txt
+
 # Precompiled Headers
 *.gch
 *.pch
