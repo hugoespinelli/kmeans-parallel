@@ -1,0 +1,1157 @@
+Initialize variables centroids and numbers took 2.0676 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1526 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1554 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1537 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1526 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1517 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1524 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1526 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1507 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1515 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1506 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1507 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1511 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1573 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1541 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1489 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1537 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1485 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1485 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1477 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1476 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1481 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1489 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1484 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1481 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1479 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1491 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1483 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1480 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1483 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1560 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1478 seconds to run.
+Sum all distances took 0.0021 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1491 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1491 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1491 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0029 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1573 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1489 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1489 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1491 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1520 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1484 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1484 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0029 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1485 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0029 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1487 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1571 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1506 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1554 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1513 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1539 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1518 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1574 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1486 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1502 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1501 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1478 seconds to run.
+Sum all distances took 0.0024 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1504 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1506 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1539 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1508 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1509 seconds to run.
+Sum all distances took 0.0026 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1511 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0027 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1500 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1523 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1497 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1510 seconds to run.
+Sum all distances took 0.0025 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1494 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0029 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1506 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1503 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1492 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1495 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1488 seconds to run.
+Sum all distances took 0.0023 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1505 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1499 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1496 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1490 seconds to run.
+Sum all distances took 0.0028 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1493 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+Initialize sum took 0.0000 seconds to run.
+Sum all centroids distances took 0.1498 seconds to run.
+Sum all distances took 0.0022 seconds to run.
+Mean distance took 0.0000 seconds to run.
+20.14 -25.71 67.21 
+71.08 -24.22 22.51 
+72.66 -28.69 78.20 
+76.48 21.68 62.33 
+-71.27 21.02 22.10 
+22.89 77.59 64.11 
+77.48 -76.75 59.65 
+-72.14 -23.78 75.10 
+-75.44 76.40 -0.95 
+-22.77 12.93 -17.40 
+-73.29 -35.36 24.75 
+-73.95 29.98 75.67 
+27.80 37.55 -32.03 
+24.11 20.80 24.57 
+-24.71  7.97 70.50 
+-25.94 64.30 26.21 
+72.89 68.64 23.29 
+-8.65 -76.91 -77.41 
+-25.58 69.81 77.64 
+72.38 -73.08 -73.68 
+-71.44 -69.98 -72.21 
+-28.08 37.65 -75.33 
+-23.77 -22.07 -70.31 
+73.17 62.82 -77.14 
+-25.10 -66.54 -26.23 
+77.85 -68.00 -13.19 
+12.69 77.90 -73.06 
+-75.66 -0.55 -78.22 
+-74.82 33.27 -34.65 
+-26.64 74.75 -31.94 
+26.89 17.31 -76.70 
+28.46 -22.68 -21.22 
+-76.12 -77.88 -7.71 
+-75.95 -77.39 66.58 
+29.01 -71.51 19.40 
+31.63 -37.58 -75.79 
+71.69 75.83 -30.42 
+76.70 16.53 -14.90 
+-71.51 -24.49 -28.55 
+21.41 77.24  1.14 
+26.17 28.77 78.49 
+74.00 73.57 76.40 
+-25.97 -64.24 77.48 
+-27.53 -77.39 27.29 
+77.75 -7.96 -68.68 
+28.71 -77.13 -36.10 
+-75.83 77.24 64.04 
+-71.26 74.00 -73.25 
+26.94 -76.47 75.34 
+-17.13 -23.72 22.38 
+Acc distance 41.0000 , Acc sum 0.0000 Acc mean 0.0000.
+All script took 44.1190 seconds to run.
