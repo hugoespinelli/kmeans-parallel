@@ -8,7 +8,7 @@
 #endif
 
 #define DIM 3
-#define NUM_THREADS 4
+#define NUM_THREADS INPUT_THREADS
 
 int main(void) {
 	clock_t start, all_script, acc_distance, acc_sum, acc_mean;
@@ -48,30 +48,17 @@ int main(void) {
 			for (i = 0; i < DIM; i++) 
 				sum[j*DIM+i] = 0.0;
 		}
-		// printf("Initialize sum took %.4lf seconds to run.\n", (float)(clock() - start) / CLOCKS_PER_SEC );
-		// start = clock();
-		// printf("Iteration\n");
 		#pragma omp parallel private(i, c, j, color, dmin, dx)
 		{
-			// #pragma omp for reduction(+:flips)
 			#pragma omp for
 			for (i = 0; i < n; i++) {
-				// int ID = omp_get_thread_num();
-				// printf("Hello world from thread %d (Total threads: %d)\n", ID, omp_get_num_threads());
 				dmin = -1; color = cluster[i];
-				// #pragma omp parallel shared(color, dmin)
 				{
-					// #pragma omp for
 					for (c = 0; c < k; c++) {
 						dx = 0.0;
-
-						// #pragma omp parallel
-						// {
-							// #pragma omp for reduction(+:dx)
-							for (j = 0; j < DIM; j++) {
-								dx +=  (x[i*DIM+j] - mean[c*DIM+j])*(x[i*DIM+j] - mean[c*DIM+j]);
-							} 
-						// }
+						for (j = 0; j < DIM; j++) {
+							dx +=  (x[i*DIM+j] - mean[c*DIM+j])*(x[i*DIM+j] - mean[c*DIM+j]);
+						} 
 						
 						if (dx < dmin || dmin == -1) {
 							color = c;
@@ -80,8 +67,6 @@ int main(void) {
 					}
 				}
 
-				// printf("color: %i, dmin: %f", color, dmin);
-				
 				if (cluster[i] != color) {
 					# pragma omp atomic
 					flips += 1;
