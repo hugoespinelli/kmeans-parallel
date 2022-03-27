@@ -30,8 +30,7 @@ int main(void) {
 	sum= (double *)malloc(sizeof(double)*DIM*k);
 	cluster = (int *)malloc(sizeof(int)*n);
 	count = (int *)malloc(sizeof(int)*k);
-	all_script = clock();
-	start = clock();
+	// all_script = clock();
 	for (i = 0; i<n; i++) 
 		cluster[i] = 0;
 	for (i = 0; i<k; i++)
@@ -42,13 +41,13 @@ int main(void) {
 	flips = n;
 	while (flips>0) {
 		flips = 0;
-		start = clock();
 		for (j = 0; j < k; j++) {
 			count[j] = 0; 
 			for (i = 0; i < DIM; i++) 
 				sum[j*DIM+i] = 0.0;
 		}
 		#pragma omp parallel private(i, c, j, color, dmin, dx)
+		// #pragma omp parallel private(i, c, j, color, dmin, dx) reduction(+: flips)
 		{
 			#pragma omp for
 			for (i = 0; i < n; i++) {
@@ -76,17 +75,11 @@ int main(void) {
 
 		}
 		
-		// printf("Sum all centroids distances took %.4lf seconds to run.\n", (float)(clock() - start) / CLOCKS_PER_SEC );
-		// acc_distance += clock() - start;
-		// start = clock();
 	    for (i = 0; i < n; i++) {
 			count[cluster[i]]++;
 			for (j = 0; j < DIM; j++) 
 				sum[cluster[i]*DIM+j] += x[i*DIM+j];
 		}
-		// printf("Sum all distances took %.4lf seconds to run.\n", (float)(clock() - start) / CLOCKS_PER_SEC );
-		// acc_sum += clock() - start;
-		// start = clock();
 		for (i = 0; i < k; i++) {
 			for (j = 0; j < DIM; j++) {
 				mean[i*DIM+j] = sum[i*DIM+j]/count[i];
@@ -105,7 +98,7 @@ int main(void) {
 	// 	(float)(acc_sum/CLOCKS_PER_SEC), 
 	// 	(float)(acc_mean/CLOCKS_PER_SEC)
 	// );
-	printf("All script took %.4lf seconds to run.\n", (float)(clock() - all_script) / CLOCKS_PER_SEC );
+	// printf("All script took %.4lf seconds to run.\n", (float)(clock() - all_script) / CLOCKS_PER_SEC );
 	#ifdef DEBUG
 	for (i = 0; i < n; i++) {
 		for (j = 0; j < DIM; j++)
