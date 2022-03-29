@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
 	MPI_Init(&argc, &argv);
 	MPI_Comm_size(MPI_COMM_WORLD, &totalSizeProcess);
 	MPI_Comm_rank(MPI_COMM_WORLD, &processId);
-	int i, j, k, n, c, chunk_size;
+	int i, j, k, n, c, chunk_size, slot;
 	double dmin, dx;
 	double *x, *mean, *sum;
-	int *cluster, *count, color;
+	int *cluster, *cp_cluster, *count, color;
 	int flips, total_flips;
 	if (processId == MAIN_PROCESS)
 	{
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 		mean = (double *)malloc(sizeof(double) * DIM * k);
 		sum = (double *)malloc(sizeof(double) * DIM * k);
 		cluster = (int *)malloc(sizeof(int) * n);
+		cp_cluster = (int *)malloc(sizeof(int) * n);
 		count = (int *)malloc(sizeof(int) * k);
 	}
 
@@ -59,20 +60,22 @@ int main(int argc, char *argv[])
 		sum = (double *)malloc(sizeof(double) * DIM * k);
 		cluster = (int *)malloc(sizeof(int) * n);
 		count = (int *)malloc(sizeof(int) * k);
-		// 100
-		// 5
-		// 100 / 4
-		// 25
-		// start 1 - 0
-		// start 2 - 25
-		// end 1 - 25
-		// end 2 - 50
-		chunk_size = n / (totalSizeProcess - 1);
-		start = chunk_size * (processId - 1);
-		end = chunk_size * processId;
-		MPI_Recv(mean, DIM * k, MPI_DOUBLE, 0, TAG_COMMOM, MPI_COMM_WORLD, &status);
-		MPI_Recv(x, DIM * n, MPI_DOUBLE, 0, TAG_COMMOM, MPI_COMM_WORLD, &status);
+		
+		MPI_Recv(mean, DIM * k, MPI_DOUBLE, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD, &status);
+		MPI_Recv(x, DIM * n, MPI_DOUBLE, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD, &status);
 	}
+
+	// 100
+	// 5
+	// 100 / 4
+	// 25
+	// start 1 - 0
+	// start 2 - 25
+	// end 1 - 25
+	// end 2 - 50
+	chunk_size = n / (totalSizeProcess - 1);
+	start = chunk_size * (processId - 1);
+	end = chunk_size * processId;
 
 	for (i = 0; i < n; i++)
 		cluster[i] = 0;
@@ -81,10 +84,9 @@ int main(int argc, char *argv[])
 
 	// printf("Initialize variables centroids and numbers took %.4lf seconds to run.\n", (float)(clock() - start) / CLOCKS_PER_SEC );
 	flips = n;
-	printf("flips %d process %d \n", flips, processId);
 	while (flips > 0)
 	{
-		printf("flips %d process %d \n", flips, processId);
+		// printf("flips %d process %d \n", flips, processId);
 		flips = 0;
 		for (j = 0; j < k; j++)
 		{
@@ -93,24 +95,44 @@ int main(int argc, char *argv[])
 				sum[j * DIM + i] = 0.0;
 		}
 
-		// No processo 0 enviar os chunks para os clusters
+		if (processId == MAIN_PROCESS)
+		{
+			printf("Envia os clusters para os slaves \n");
+			for (int i = 1; i < totalSizeProcess; i++)
+			{
+				MPI_Send(mean, DIM * k, MPI_DOUBLE, i, TAG_COMMOM, MPI_COMM_WORLD);
+			}
+		} else {
+			// printf("cluster[0] = %d", cluster[0]);
+			MPI_Recv(mean, DIM * k, MPI_DOUBLE, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD, &status);
+			// printf("Processo %d recebe os clusters da master \n", processId);
+			// printf("cluster[0] = %d", cluster[0]);
+		}
+
+		// Se for processo nao principal, processa as distancias euclidiana
 		if (processId != MAIN_PROCESS)
 		{
+			// printf("Processa as distancias \n");
 			for (i = start; i < end; i++)
 			{
 				dmin = -1;
+				// printf("Meu processo e %d e o indice e %d end e %d \n", processId, i, end);
 				color = cluster[i];
+				// printf("1 \n");
 				{
 					for (c = 0; c < k; c++)
 					{
 						dx = 0.0;
+						// printf("2 \n");
 						for (j = 0; j < DIM; j++)
 						{
 							dx += (x[i * DIM + j] - mean[c * DIM + j]) * (x[i * DIM + j] - mean[c * DIM + j]);
+							// printf("3 \n");
 						}
 
 						if (dx < dmin || dmin == -1)
 						{
+							// printf("4 \n");
 							color = c;
 							dmin = dx;
 						}
@@ -123,20 +145,44 @@ int main(int argc, char *argv[])
 					cluster[i] = color;
 				}
 			}
+			printf("Processo %d envia flips %d \n", processId, flips);
 			MPI_Send(&flips, 1, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD);
-			MPI_Send(&cluster, n, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD);
-		} else {
+			MPI_Send(cluster, n, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD);
+			printf("Envia as cores calculadas para a master \n");
+		}
+		else  // Se for processo principal, pega todos os flips e atualiza as cores dos clusters
+		{
 			total_flips = 0;
 			for (int i = 1; i < totalSizeProcess; i++)
 			{
-				MPI_Recv(&total_flips, DIM * n, MPI_DOUBLE, i, TAG_COMMOM, MPI_COMM_WORLD, &status);
-				total_flips += total_flips;
+				MPI_Recv(&total_flips, 1, MPI_INT, i, TAG_COMMOM, MPI_COMM_WORLD, &status);
+				flips += total_flips;
+				// printf("total flips %d \n", total_flips);
+				MPI_Recv(cp_cluster, DIM * n, MPI_INT, i, TAG_COMMOM, MPI_COMM_WORLD, &status);
+				printf("chunk size %d\n", chunk_size);
+				for (int j = 0; j < chunk_size; j++)
+				{
+					slot = ((i-1) * chunk_size) + j;
+					// printf("slot %d \n", slot);
+					cluster[slot] = cp_cluster[slot];
+				}
 			}
-			flips = total_flips;
-			MPI_Recv(&cluster, DIM * n, MPI_DOUBLE, i, TAG_COMMOM, MPI_COMM_WORLD, &status);
+			printf("Atualiza master com clusters e flips %d\n", flips);
 		}
 
-		if (processId != MAIN_PROCESS) continue;
+
+		// Atualiza flips de todos os processos
+		if (processId != MAIN_PROCESS)
+		{
+			MPI_Recv(&flips, 1, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD, &status);
+			continue;
+		} else {
+			for (int i = 1; i < totalSizeProcess; i++)
+			{
+				MPI_Send(&flips, 1, MPI_INT, i, TAG_COMMOM, MPI_COMM_WORLD);
+			}
+			// printf("Flips do processo principal %d \n", flips);
+		}
 
 		// Pegar os resultados de cada clusters
 
