@@ -12,8 +12,8 @@ CXXFILES	=	$(wildcard *.cpp)
 OBJECTS		=	$(CFILES:.c=.o) $(CXXFILES:.cpp=.o)
 
 PYTHONFILE  =   ./geninput.py
-CENTROIDS   =   20
-ELEMENTS    =   1000
+CENTROIDS   =   50
+ELEMENTS    =   2500
 NUM_THREADS =   2
 
 KMEANS_INPUT_FILE = input.txt
@@ -36,11 +36,16 @@ KMEANS_TIME_MEASURE = time-measures.txt
 gen :
 	python3 $(PYTHONFILE) $(CENTROIDS) $(ELEMENTS) > $(KMEANS_INPUT_FILE)
 
-run:
+build:
 	# @rm ./kmeans
 	@echo "Building..."
 	@mpicc kmeans.c -o kmeans
 	@echo "Running..."
+
+run:
+	@./seq/kmeans < $(KMEANS_INPUT_FILE)
+
+mpi:
 	@mpirun -np 4 ./kmeans < $(KMEANS_INPUT_FILE)
 
 clean :
