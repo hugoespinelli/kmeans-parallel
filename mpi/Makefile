@@ -12,8 +12,8 @@ CXXFILES	=	$(wildcard *.cpp)
 OBJECTS		=	$(CFILES:.c=.o) $(CXXFILES:.cpp=.o)
 
 PYTHONFILE  =   ./geninput.py
-CENTROIDS   =   50
-ELEMENTS    =   2500
+CENTROIDS   =   5
+ELEMENTS    =   20
 NUM_THREADS =   2
 
 KMEANS_INPUT_FILE = input.txt
@@ -46,7 +46,7 @@ run:
 	@./seq/kmeans < $(KMEANS_INPUT_FILE)
 
 mpi:
-	@mpirun -np 4 ./kmeans < $(KMEANS_INPUT_FILE)
+	@mpirun -np 4 ./kmeans
 
 clean :
 	rm -fr $(EXE) $(OBJECTS)

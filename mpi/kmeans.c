@@ -7,6 +7,7 @@
 #define TAG_COMMOM 1
 #define DIM 3
 #define MAIN_PROCESS 0
+#define FILENAME "input.txt"
 
 int main(int argc, char *argv[])
 {
@@ -24,18 +25,36 @@ int main(int argc, char *argv[])
 	// Distribuição dos inputs da master com os slaves
 	if (processId == MAIN_PROCESS)
 	{
-		scanf("%d", &k);
-		scanf("%d", &n);
+		FILE *fp = fopen(FILENAME, "r");
+		char line[100];
+		int i = 0;
+		fgets(line, 100, fp);
+		sscanf(line, "%d", &k);
+		fgets(line, 100, fp);
+		sscanf(line, "%d", &n);
+		// printf("k:%d n: %d", k, n);
 		x = (double *)malloc(sizeof(double) * DIM * n);
 		mean = (double *)malloc(sizeof(double) * DIM * k);
 		sum = (double *)malloc(sizeof(double) * DIM * k);
 		cluster = (int *)malloc(sizeof(int) * n);
 		cp_cluster = (int *)malloc(sizeof(int) * n);
 		count = (int *)malloc(sizeof(int) * k);
-		for (i = 0; i < k; i++)
-			scanf("%lf %lf %lf", mean + i * DIM, mean + i * DIM + 1, mean + i * DIM + 2);
-		for (i = 0; i < n; i++)
-			scanf("%lf %lf %lf", x + i * DIM, x + i * DIM + 1, x + i * DIM + 2);
+
+		while (i < k)
+		{
+			fgets(line, 100, fp);
+			sscanf(line, "%lf %lf %lf", mean + i * DIM, mean + i * DIM + 1, mean + i * DIM + 2);
+			// printf("mean dim 1: %lf mean dim 2: %lf mean dim 3: %lf \n",  mean[i*DIM], mean[i*DIM+1], mean[i*DIM+2]);
+			i++;
+		}
+		i = 0;
+		while (i < n)
+		{
+			fgets(line, 100, fp);
+			sscanf(line, "%lf %lf %lf", x + i * DIM, x + i * DIM + 1, x + i * DIM + 2);
+			// printf("x dim 1: %lf x dim 2: %lf x dim 3: %lf \n",  x[i*DIM], x[i*DIM+1], x[i*DIM+2]);
+			i++;
+		}
 		for (int i = 1; i < totalSizeProcess; i++)
 		{
 			MPI_Send(&k, 1, MPI_INT, i, TAG_COMMOM, MPI_COMM_WORLD);
@@ -145,12 +164,11 @@ int main(int argc, char *argv[])
 			// Envia os flips de atualização e cores dos clusters para a master
 			MPI_Send(&flips, 1, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD);
 			MPI_Send(cluster, n, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD);
-			
+
 			// Recebe os flips de atualização da master
 			MPI_Recv(&flips, 1, MPI_INT, MAIN_PROCESS, TAG_COMMOM, MPI_COMM_WORLD, &status);
 			continue;
 		}
-
 
 		// A master que efetua os calculos de atualização dos centroides
 		for (i = 0; i < n; i++)
@@ -168,12 +186,13 @@ int main(int argc, char *argv[])
 		}
 	}
 
-
-	for (i = 0; i < k; i++)
-	{
-		for (j = 0; j < DIM; j++)
-			printf("%5.2f ", mean[i * DIM + j]);
-		printf("\n");
+	if (processId == MAIN_PROCESS) {
+		for (i = 0; i < k; i++)
+		{
+			for (j = 0; j < DIM; j++)
+				printf("%5.2f ", mean[i * DIM + j]);
+			printf("\n");
+		}
 	}
 
 #ifdef DEBUG
