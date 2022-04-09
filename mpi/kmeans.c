@@ -25,14 +25,17 @@ int main(int argc, char *argv[])
 	// Distribuição dos inputs da master com os slaves
 	if (processId == MAIN_PROCESS)
 	{
+		// Leitura de arquivo pelo processo principal
 		FILE *fp = fopen(FILENAME, "r");
 		char line[100];
 		int i = 0;
+
+		// Leitura de K e N no arquivo
 		fgets(line, 100, fp);
 		sscanf(line, "%d", &k);
 		fgets(line, 100, fp);
 		sscanf(line, "%d", &n);
-		// printf("k:%d n: %d", k, n);
+
 		x = (double *)malloc(sizeof(double) * DIM * n);
 		mean = (double *)malloc(sizeof(double) * DIM * k);
 		sum = (double *)malloc(sizeof(double) * DIM * k);
@@ -40,11 +43,11 @@ int main(int argc, char *argv[])
 		cp_cluster = (int *)malloc(sizeof(int) * n);
 		count = (int *)malloc(sizeof(int) * k);
 
+		// Leitura de centroides e elementos no arquivo
 		while (i < k)
 		{
 			fgets(line, 100, fp);
 			sscanf(line, "%lf %lf %lf", mean + i * DIM, mean + i * DIM + 1, mean + i * DIM + 2);
-			// printf("mean dim 1: %lf mean dim 2: %lf mean dim 3: %lf \n",  mean[i*DIM], mean[i*DIM+1], mean[i*DIM+2]);
 			i++;
 		}
 		i = 0;
@@ -52,9 +55,10 @@ int main(int argc, char *argv[])
 		{
 			fgets(line, 100, fp);
 			sscanf(line, "%lf %lf %lf", x + i * DIM, x + i * DIM + 1, x + i * DIM + 2);
-			// printf("x dim 1: %lf x dim 2: %lf x dim 3: %lf \n",  x[i*DIM], x[i*DIM+1], x[i*DIM+2]);
 			i++;
 		}
+
+		// Envio de variaveis do processo master para slaves
 		for (int i = 1; i < totalSizeProcess; i++)
 		{
 			MPI_Send(&k, 1, MPI_INT, i, TAG_COMMOM, MPI_COMM_WORLD);
@@ -65,6 +69,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		// Recebimento de variaveis nos slaves
 		MPI_Recv(&k, 1, MPI_INT, 0, TAG_COMMOM, MPI_COMM_WORLD, &status);
 		MPI_Recv(&n, 1, MPI_INT, 0, TAG_COMMOM, MPI_COMM_WORLD, &status);
 		x = (double *)malloc(sizeof(double) * DIM * n);
@@ -84,11 +89,9 @@ int main(int argc, char *argv[])
 	for (i = 0; i < n; i++)
 		cluster[i] = 0;
 
-	// printf("Initialize variables centroids and numbers took %.4lf seconds to run.\n", (float)(clock() - start) / CLOCKS_PER_SEC );
 	flips = n;
 	while (flips > 0)
 	{
-		// printf("flips %d process %d \n", flips, processId);
 		flips = 0;
 		for (j = 0; j < k; j++)
 		{
